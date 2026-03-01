@@ -47,6 +47,25 @@ function countVowels(string) {
     console.log(string + ": " + count + " vowels");
 }
 
-countVowels("Hello World");
-countVowels("JavaScript is fun");
-countVowels("Programming is awesome");
+countVowels("The sky is blue");
+countVowels("Illinois Institute of Technology ");
+countVowels("Virtual Studio Code");
+
+
+// ----------------------------------------------
+//Exercise #3
+function sortNumbers(array) {
+    let originalArray = Array.from(array);
+    
+    let sortedArray = Array.from(array).sort((a, b) => a - b);
+
+    console.log("Original Array: " + originalArray + " output Sorted Array: " + sortedArray);
+}
+
+sortNumbers([5, 2, 6, 1, 5, 6]);
+sortNumbers([3, 0, -4, 10, 5]);
+sortNumbers([4, 4, 1, 6, 9]);
+
+
+// ----------------------------------------------
+// Exercise #4
