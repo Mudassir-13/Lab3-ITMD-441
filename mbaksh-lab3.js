@@ -69,3 +69,11 @@ sortNumbers([4, 4, 1, 6, 9]);
 
 // ----------------------------------------------
 // Exercise #4
+function celsiusToFahrenheit (celsius) {
+    let fahrenheit = (celsius * 9/5) + 32;
+    console.log(celsius.toFixed(1) + " Celsius = " + fahrenheit.toFixed(1) + " Fahrenheit");
+}
+
+celsiusToFahrenheit(-13);
+celsiusToFahrenheit(100);
+celsiusToFahrenheit(37);
