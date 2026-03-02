@@ -27,7 +27,7 @@ function minMaxAverage(array) {
     console.log(output);
 }
 
-minMaxAverage([2, 5, 23, 6, 9, 4, 30, 3]);
+minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
 minMaxAverage([6, 5, 3, 5, 10, 12, 8, 9]);
 minMaxAverage([-5, 9, 14, 10, 22, 7, 5, 8]);
 
