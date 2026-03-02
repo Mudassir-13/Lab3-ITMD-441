@@ -45,11 +45,12 @@ function countVowels(string) {
     }
 
     console.log(string + ": " + count + " vowels");
+    return count;
 }
 
-countVowels("The sky is blue");
-countVowels("Illinois Institute of Technology ");
-countVowels("Virtual Studio Code");
+countVowels("Summer");
+countVowels("Illinois");
+countVowels("Macbook");
 
 
 // ----------------------------------------------
@@ -60,6 +61,7 @@ function sortNumbers(array) {
     let sortedArray = Array.from(array).sort((a, b) => a - b);
 
     console.log("Original Array: " + originalArray + " output Sorted Array: " + sortedArray);
+    return sortedArray;
 }
 
 sortNumbers([5, 2, 6, 1, 5, 6]);
