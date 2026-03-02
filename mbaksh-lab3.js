@@ -44,13 +44,12 @@ function countVowels(string) {
         }
     }
 
-    console.log(string + ": " + count + " vowels");
-    return count;
+    return `${string}: ${count} vowels`;
 }
 
-countVowels("Summer");
-countVowels("Illinois");
-countVowels("Macbook");
+console.log(countVowels("Summer"));
+console.log(countVowels("Illinois"));
+console.log(countVowels("Macbook"));
 
 
 // ----------------------------------------------
@@ -60,13 +59,12 @@ function sortNumbers(array) {
     
     let sortedArray = Array.from(array).sort((a, b) => a - b);
 
-    console.log("Original Array: " + originalArray + " output Sorted Array: " + sortedArray);
-    return sortedArray;
+    return `Original Array: [${originalArray}] output Sorted Array: [${sortedArray}]`;
 }
 
-sortNumbers([5, 2, 6, 1, 5, 6]);
-sortNumbers([3, 0, -4, 10, 5]);
-sortNumbers([4, 4, 1, 6, 9]);
+console.log(sortNumbers([5, 2, 6, 1, 5, 6]));
+console.log(sortNumbers([3, 0, -4, 10, 5]));
+console.log(sortNumbers([4, 4, 1, 6, 9]));
 
 
 // ----------------------------------------------
